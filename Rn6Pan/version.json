@@ -1,0 +1,9 @@
+{
+    "versionCode": 202102020,
+    "versionName": "0.1.1.0",
+    "category": "alpha",
+    "changelog": "新增：\n- 查看离线下载列表\n- 通过 URL 批量添加离线任务\n- 搜索功能\n\n优化：\n- 文件管理页「返回」逻辑修改\n- 修复下载列表崩溃\n\n备注：不支持 x86 系列设备，以后应该也不会支持，不然安装包就更大了",
+    "release": "https://github.com/hjthjthjt/Rn6Pan/releases/tag/alpha_v0.1.1.0",
+    "originLink": "https://github.com/hjthjthjt/Rn6Pan/releases/download/alpha_v0.1.1.0/app-release.apk",
+    "mirrorLink": "https://github.com.cnpmjs.org/hjthjthjt/Rn6Pan/releases/download/alpha_v0.1.1.0/app-release.apk"
+}
