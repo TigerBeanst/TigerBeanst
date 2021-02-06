@@ -1,9 +1,9 @@
 {
-    "versionCode": 202102020,
-    "versionName": "0.1.1.0",
+    "versionCode": 202102060,
+    "versionName": "0.1.1.1",
     "category": "alpha",
-    "changelog": "新增：\n- 查看离线下载列表\n- 通过 URL 批量添加离线任务\n- 搜索功能\n\n优化：\n- 文件管理页「返回」逻辑修改\n- 修复下载列表崩溃",
-    "release": "https://github.com/hjthjthjt/Rn6Pan/releases/tag/alpha_v0.1.1.0",
-    "originLink": "https://github.com/hjthjthjt/Rn6Pan/releases/download/alpha_v0.1.1.0/app-release.apk",
-    "mirrorLink": "https://github.com.cnpmjs.org/hjthjthjt/Rn6Pan/releases/download/alpha_v0.1.1.0/app-release.apk"
+    "changelog": "优化：\n- 修复 Android 11 预览视频时大概率崩溃的问题\n- 新增全部架构包，可根据自己的平台需求安装，universal 版支持全部设备（不过除了 arm64 版本外都没测试（跑\n\n注：当前「直接下载」将下载 arm64 版",
+    "release": "https://github.com/hjthjthjt/Rn6Pan/releases/tag/alpha_v0.1.1.1",
+    "originLink": "https://github.com/hjthjthjt/Rn6Pan/releases/download/alpha_v0.1.1.1/app-arm64-v8a-release.apk",
+    "mirrorLink": "https://github.com.cnpmjs.org/hjthjthjt/Rn6Pan/releases/download/alpha_v0.1.1.1/app-arm64-v8a-release.apk"
 }
