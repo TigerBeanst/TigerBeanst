@@ -1,3 +1,4 @@
 payload:
   - '+.ol.epicgames.com'
   - '+.npupt.com'
+  - '+.115.com'
