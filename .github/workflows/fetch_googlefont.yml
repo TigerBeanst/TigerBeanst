@@ -1,5 +1,8 @@
 name: Try
-on: [push]
+on:
+  push:
+  schedule:
+    - cron: '0 2 * * *'
 jobs:
   Fetch-ARM64-Files:
     runs-on: ubuntu-latest
@@ -8,6 +11,15 @@ jobs:
 
       - name: 🥽Try
         run: |
+          cd HourglassTwins
+          rm -rf google_fonts
           npm install -g get-google-fonts
-          get-google-fonts -i "https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap"
+          get-google-fonts -i "https://fonts.googleapis.com/css?family=Noto+Serif+SC:400,700&display=swap" -o google_fonts
+          cd ..
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "update google fonts"
+          git push
+          
           
