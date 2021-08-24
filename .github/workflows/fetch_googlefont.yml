@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: '0 2 * * *'
 jobs:
-  Fetch-ARM64-Files:
+  Fetch Google Fonts:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
