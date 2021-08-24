@@ -2,7 +2,7 @@ name: Try
 on:
   push:
   schedule:
-    - cron: '0 2 * * *'
+    - cron: '0 2 * * 1'
 jobs:
   Fetch-Google-Fonts:
     runs-on: ubuntu-latest
