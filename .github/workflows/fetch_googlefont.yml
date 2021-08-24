@@ -8,6 +8,6 @@ jobs:
 
       - name: 🥽Try
         run: |
-          npm install get-google-fonts
+          npm install -g get-google-fonts
           get-google-fonts -i "https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap"
           
