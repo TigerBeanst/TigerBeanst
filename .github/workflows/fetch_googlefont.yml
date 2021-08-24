@@ -1,0 +1,13 @@
+name: Try
+on: [push]
+jobs:
+  Fetch-ARM64-Files:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: 🥽Try
+        run: |
+          npm install get-google-fonts
+          get-google-fonts -i "https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap"
+          
