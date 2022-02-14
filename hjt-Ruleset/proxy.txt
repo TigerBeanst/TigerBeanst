@@ -1,2 +1,3 @@
 payload:
   - '+.googleapis.cn'
+  - '+.googleapis.com'
