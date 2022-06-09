@@ -21,18 +21,6 @@
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logoColor=white&logo=Python)
 ![Shell](https://img.shields.io/badge/-Shell-777BB4?style=flat-square&logoColor=white&logo=PowerShell)
 
-### Solar System Exploration, 1950s – 1960s
-
-- [ ] Mercury
-- [x] Venus
-- [x] Earth (Orbit/Moon)
-- [x] Mars
-- [ ] Jupiter
-- [ ] Saturn
-- [ ] Uranus
-- [ ] Neptune
-- [ ] Comet Haley
-
 ## Recent games to clear
 - [ ] [![Danganronpa Another Episode: Ultra Despair Girls](https://img.shields.io/badge/-Another%20Episode:%20Ultra%20Despair%20Girls-a807a8?style=for-the-badge&logoColor=942710&label=Danganronpa&labelColor=060808)](https://store.steampowered.com/app/555950/Danganronpa_Another_Episode_Ultra_Despair_Girls/)
 
