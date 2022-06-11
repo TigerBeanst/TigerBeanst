@@ -27,9 +27,6 @@
 
 [![Danganronpa Another Episode: Ultra Despair Girls](https://img.shields.io/badge/-Another%20Episode:%20Ultra%20Despair%20Girls-a807a8?style=for-the-badge&logoColor=942710&label=Danganronpa&labelColor=060808)](https://store.steampowered.com/app/555950/Danganronpa_Another_Episode_Ultra_Despair_Girls/)
 
-[![BioShock Infinite: Burial at Sea](https://img.shields.io/badge/-Infinite:%20Burial%20at%20Sea-B82221?style=for-the-badge&label=BioShock&labelColor=77827b)](https://store.steampowered.com/app/8870/)
-[![BioShock 2: Remastered](https://img.shields.io/badge/-2%20Remastered-645b3c?style=for-the-badge&label=BioShock&labelColor=77827b)](https://store.steampowered.com/app/409720/2/)
-
 [![Half-Life: Opposing Force](https://img.shields.io/badge/-Opposing%20Force-454948?style=for-the-badge&label=Half-Life&labelColor=b87944)](https://store.steampowered.com/app/50/HalfLife_Opposing_Force/)
 [![Half-Life: Blue Shift](https://img.shields.io/badge/-Blue%20Shift-454948?style=for-the-badge&label=Half-Life&labelColor=b87944)](https://store.steampowered.com/app/130/HalfLife_Blue_Shift/)
 
