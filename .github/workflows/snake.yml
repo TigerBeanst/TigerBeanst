@@ -8,19 +8,19 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  snake:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@main
 
       - name: Generate
-        uses: Platane/snk@master
+        uses: Platane/snk@main
         with:
           github_user_name: ${{ github.repository_owner }}
-          gif_out_path: ./Snake/github-contribution-grid-snake.gif
-          svg_out_path: ./Snake/github-contribution-grid-snake.svg
+          outputs: |
+            ./Snake/github-contribution-grid-snake.gif
+            ./Snake/github-contribution-grid-snake.svg
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
@@ -28,10 +28,11 @@ jobs:
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add .
-          git commit -m "Generate snake"
-      
-      - name: Push
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # check if there are any changes
+          if [[ -n $(git status --porcelain) ]]; then
+            git add .
+            git commit -m "chore: generate snake" -m "[skip ci]"
+            git push
+          else
+            echo "::notice::Snake files are up to date."
+          fi
